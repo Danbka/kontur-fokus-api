@@ -1,0 +1,23 @@
+{
+    "name": "danbka/kontur-fokus-api",
+    "description": "Simple implementation of Kontur.Fokus API 3.0",
+    "keywords": ["konturfokus", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniil Gorokh",
+            "email": "daniil.gorokh@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.6",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danbka\\KonturFokusApi\\": "src/"
+        }
+    }
+}
